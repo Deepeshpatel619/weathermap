@@ -1,0 +1,15 @@
+/* .request-popup .leaflet-popup-content-wrapper {
+    border-radius: 0px;
+  } */
+
+  .head{
+    color: blue;
+    margin: 0px;
+    font-size: 16px;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 18px;
+    color:black;
+    margin: 0px;
+  }
