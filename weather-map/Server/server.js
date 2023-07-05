@@ -55,7 +55,7 @@ async function find() {
 
 function updateData(city){
     let message='';
-    requests(`https://api.openweathermap.org/data/2.5/weather?q=${city},{country%20code}&appid=0b155c69ad0807c5f5ea1e9c7bff66a2`)
+    requests(`https://api.openweathermap.org/data/2.5/weather?q=${city},{country%20code}&appid=APIKEY`)
     .on('data', function (chunk) {
         const jsondata = JSON.parse(chunk);
         const data = [{
