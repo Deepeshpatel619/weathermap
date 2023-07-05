@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const mySecret='mongodb+srv://ARJUn98:gurjar98@cluster0.5vrcs11.mongodb.net/?retryWrites=true&w=majority'; 
+const mySecret="DATABASE URL";
 
 mongoose.connect(mySecret,{useNewUrlParser:true, useUnifiedTopology:true})
                    .then(()=>console.log("connected"))
